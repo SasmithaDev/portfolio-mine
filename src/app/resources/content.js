@@ -48,7 +48,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>Full Stack Developer</>,
-    subline: <>I'm Sasmitha,A full stack developer passionate about <br/> <InlineCode>Astronomy</InlineCode> and <InlineCode>Psychology</InlineCode>, blending a keen understanding of human behavior with expertise in <InlineCode>React.js</InlineCode>and <InlineCode>Node.js</InlineCode> to create innovative, user-centered digital experiences.</>
+    subline: <>I'm Sasmitha Weerakkody,A full stack developer passionate about <br/> <InlineCode>Astronomy</InlineCode> and <InlineCode>Psychology</InlineCode>, blending a keen understanding of human behavior with expertise in <InlineCode>React.js</InlineCode>and <InlineCode>Node.js</InlineCode> to create innovative, user-centered digital experiences.</>
 }
 
 const about = {
@@ -69,7 +69,7 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>I'm Sasmitha,A full stack developer passionate about Astronomyand Psychology, blending a keen understanding of human behavior with expertise in React.js and Node.js to create innovative, user-centered digital experiences.</>
+        description: <>I'm Sasmitha Weerakkody,A full stack developer passionate about Astronomyand Psychology, blending a keen understanding of human behavior with expertise in React.js and Node.js to create innovative, user-centered digital experiences.</>
     },
     work: {
         display: true, // set to false to hide this section
