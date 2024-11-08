@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'Sasmitha',
+    lastName:  'Weerakkody',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Design Engineer',
-    avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    role:      'Full Stack Dev',
+    avatar:    '/images/avatar-01.jpg',
+    location:  'Asia/Colombo',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['English', 'Sinhala', 'Spanish']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
@@ -24,22 +24,22 @@ const social = [
     {
         name: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
+        link: 'https://github.com/SasmithaDev',
     },
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/in/sasmithadev',
     },
     {
         name: 'X',
         icon: 'x',
-        link: '',
+        link: 'https://x.com/DevSasmitha',
     },
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'mailto:sasmith.dev@yahoo.com',
     },
 ]
 
@@ -47,8 +47,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    headline: <>Full Stack Developer</>,
+    subline: <>I'm Sasmitha,A full stack developer passionate about <br/> <InlineCode>Astronomy</InlineCode> and <InlineCode>Psychology</InlineCode>, blending a keen understanding of human behavior with expertise in <InlineCode>React.js</InlineCode>and <InlineCode>Node.js</InlineCode> to create innovative, user-centered digital experiences.</>
 }
 
 const about = {
@@ -64,41 +64,42 @@ const about = {
     },
     calendar: {
         display: true,
-        link: 'https://cal.com'
+        link: 'https://wa.me/94711414598'
     },
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>I'm Sasmitha,A full stack developer passionate about Astronomyand Psychology, blending a keen understanding of human behavior with expertise in React.js and Node.js to create innovative, user-centered digital experiences.</>
     },
     work: {
         display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
-                timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                company: '9th-Co Innovations',
+                timeframe: '2024 - Present',
+                role: 'Full Stack Developer',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+                    <>I focus on building end-to-end solutions across front-end and back-end technologies</>,
+                    <>My role involves optimizing web applications and delivering high-quality user experiences.</>,
+                    <>Last project was a Charity project</>
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
-                        src: '/images/projects/project-01/cover-01.jpg',
-                        alt: 'Once UI Project',
+                        src: '/images/projects/project-01/cover-05.jpg',
+                        alt: 'Charity Project',
                         width: 16,
                         height: 9
                     }
                 ]
             },
             {
-                company: 'Creativ3',
-                timeframe: '2018 - 2022',
-                role: 'Lead Designer',
+                company: 'Infinity Technologies',
+                timeframe: '2023 - 2024',
+                role: 'Front End Developer',
                 achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>I specialized in creating responsive and interactive web designs.</>,
+                    <>My role involved optimizing user interfaces for enhanced performance and accessibility.</>
                 ],
                 images: [ ]
             }
@@ -109,12 +110,12 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'C3S Business School - Barcelona',
+                description: <>BSc (Hons) Business Computing and Information Systems</>,
             },
             {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'Henegama Central College',
+                description: <>Advance Level</>,
             }
         ]
     },
@@ -123,17 +124,17 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'Figma',
-                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+                title: 'React.js ',
+                description: <>Expert in React.js, crafting dynamic, responsive, and efficient user interfaces.</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/cover-02.jpg',
+                        src: '/images/projects/project-01/cover-06.jpg',
                         alt: 'Project image',
                         width: 16,
                         height: 9
                     },
                     {
-                        src: '/images/projects/project-01/cover-03.jpg',
+                        src: '/images/projects/project-01/cover-06.webp',
                         alt: 'Project image',
                         width: 16,
                         height: 9
@@ -142,10 +143,16 @@ const about = {
             },
             {
                 title: 'Next.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+                description: <>Experienced in building robust applications with Node.js and Next.js frameworks.</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/cover-04.jpg',
+                        src: '/images/projects/project-01/cover-07.jpg',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
+                    },
+                    {
+                        src: '/images/projects/project-01/cover-07.webp',
                         alt: 'Project image',
                         width: 16,
                         height: 9

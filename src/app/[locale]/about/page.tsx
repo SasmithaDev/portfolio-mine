@@ -162,7 +162,7 @@ export default function About(
                                 </Flex>
                                 <Flex
                                     paddingX="8">
-                                    Schedule a call
+                                    WhatsApp
                                 </Flex>
                                 <IconButton
                                     href={about.calendar.link}
